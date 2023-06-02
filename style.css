@@ -1,0 +1,30 @@
+.core-feature-section{
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+
+.Ctasection{
+    background-size: 100% 100%;
+}
+
+.companiesList{
+   animation: 10s infinite linear move-company;
+
+}
+
+@keyframes move-company {
+    0%{
+        transform: translateY(0);
+    }
+
+   100%{
+    transform: translateY(-50%);
+   }
+
+    
+}
+
+
+
+
